@@ -42,8 +42,9 @@ And set typescript to 2.1.1 (support for spread operator):
     +    "typescript": "^2.1.1",
     +    "typings": "^1.4.0"
 
-Also, I removed the `start` script and used only `tsc:w`. In two separate shells:
+Also, I ~~removed the `start` script and~~ used only `tsc:w`. In two separate shells:
 
 * `npm run tsc:w`.
 * `python3 -m http.server 8000`
 
+[EDIT]: I ran the python3 mini-webserver from `npm start`. Btw I run Debian Linux 11, so Python 3 is invoked via `python3`, but YMMV.
